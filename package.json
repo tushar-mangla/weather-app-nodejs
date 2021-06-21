@@ -3,17 +3,26 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "start": "node src/app.js"
+  "dependencies": {
+    "clean": "^4.0.2",
+    "core-util-is": "^1.0.2",
+    "nodemon": "^2.0.7",
+    "npm": "^7.18.1",
+    "webpack": "^5.39.1"
   },
-  "keywords": [],
+  "devDependencies": {},
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tushar-mangla/weather-app-nodejs.git"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "hbs": "^4.1.2",
-    "npm": "^7.18.1",
-    "request": "^2.88.2",
-    "webpack": "^5.39.1"
-  }
+  "bugs": {
+    "url": "https://github.com/tushar-mangla/weather-app-nodejs/issues"
+  },
+  "homepage": "https://github.com/tushar-mangla/weather-app-nodejs#readme"
 }
